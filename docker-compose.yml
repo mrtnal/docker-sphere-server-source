@@ -11,9 +11,9 @@ services:
     ports:
       - 2593:2593
     volumes:
-      - ./data/config/sphere.ini:/sphereserver/sphere.ini # Config from https://github.com/Sphereserver/Source-X/blob/master/src/sphere.ini
+      - ./data/config/sphere.ini:/sphereserver/sphere.ini # Config from https://github.com/Sphereserver/Source/blob/master/src/sphere.ini
       - ./data/accounts:/sphereserver/accounts
       - ./data/logs:/sphereserver/logs
       - ./data/mul:/sphereserver/mul # Files from Ultima Online installation
       - ./data/save:/sphereserver/save
-      - ./data/scripts:/sphereserver/scripts # Default scripts: https://github.com/Sphereserver/Scripts-X
+      - ./data/scripts:/sphereserver/scripts # Default scripts: https://github.com/Sphereserver/Scripts
